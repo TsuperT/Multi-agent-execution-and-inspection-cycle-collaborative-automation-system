@@ -1,0 +1,6 @@
+﻿模块,技术选型,功能
+API 层,FastAPI,任务提交、状态查询接口
+任务调度,Celery Beat,周期性任务触发
+Agent 执行,Celery Worker,分布式任务处理
+结果检查,独立 Check Task,执行后自动校验
+存储,SQLite + Redis,任务元数据、消息队列
